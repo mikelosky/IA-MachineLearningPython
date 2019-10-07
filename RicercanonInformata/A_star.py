@@ -1,9 +1,7 @@
 from heapq import heappush, heappop
 
-
 def heuristic(cell, goal):
     return abs(cell[0] - goal[0]) + abs(cell[1] - goal[1])
-
 
 def Astar(start, goal, graph):
     pr_queue = []
