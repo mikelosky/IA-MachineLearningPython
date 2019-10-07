@@ -26,12 +26,6 @@ def writeFile(file,sizex,sizey,n_ost):
                     line.append('o')
                     n_ost - 1
 
-
-
-
-
-
-
 if __name__ == "__main__":
     file = open(r"maze.txt","w+")
     sizex = 5
