@@ -7,7 +7,7 @@ def Astar(start, goal, graph):
     pr_queue = []
     print(pr_queue)
 
-    heappush(pr_queue, (0 + heuristic(start, goal), 0, "", start))  # implementazione un albero in cui i nodi genitori hanno un valore inveriore
+    heappush(pr_queue, (0 + heuristic(start, goal), 0, "", start))  # implementazione un albero in cui i nodi genitori hanno un valore inferiore
     print(pr_queue)
     visited = set()
     while pr_queue:
