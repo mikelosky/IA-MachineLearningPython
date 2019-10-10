@@ -72,7 +72,7 @@ if __name__ == "__main__":
     lab = read_fromfile()
     start = find_start(lab)
     goal = find_goal(lab)
-    depth = 1000
+    depth = 100
     rig = len(lab)
     col = len(lab[0])
     graph = createListAdjancet(lab, rig, col)
