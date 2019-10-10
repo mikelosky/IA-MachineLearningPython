@@ -34,7 +34,6 @@ def createListAdjancet(lab , rig, col):
 
 def read_fromfile():
     lab = list()
-
     with open("C:/Users/MkPc/Desktop/python-bfs-master/python-bfs-master/maze1.txt") as file:
         for line in file:
             lab.append(list(line.rstrip()))
