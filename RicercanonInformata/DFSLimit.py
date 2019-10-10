@@ -66,7 +66,6 @@ def find_goal(lab):
                 return tuple([i, j])
     return None
 
-
 if __name__ == "__main__":
     # Leggo il labirinto da file
     lab = read_fromfile()
